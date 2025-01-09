@@ -14,3 +14,4 @@ dependencies:
   - biopython
   - plotnine
   - viennarna
+  - codonw
