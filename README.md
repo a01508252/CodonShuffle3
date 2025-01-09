@@ -2,7 +2,7 @@
 
 ### Description
 
-This package is an updated version of the original CodonShuffle tool, originally described by Jorge D M M, Mills R E, Lauring A S (2015). The updates ensure compatibility with Python3 and current computing environments, while preserving the core functionality: generating and analyzing permuted sequences of an open reading frame from a viral genome.
+This package is an updated version of the original [CodonShuffle] (https://github.com/lauringlab/CodonShuffle/tree/master) tool, originally described by Jorge D M M, Mills R E, Lauring A S (2015). The updates ensure compatibility with Python3 and current computing environments, while preserving the core functionality: generating and analyzing permuted sequences of an open reading frame from a viral genome.
 
 This updated package can be used to generate permuted sequences by shuffling bases in a way that preserves the protein coding sequence. The resulting sequences contain a large number of synonymous substitutions and may differ in various sequence-determined features (e.g., dinucleotide frequency or free energy of RNA folding). Additional scripts are then used to quantify these differences relative to the unpermuted sequence, and a least squares method is applied to identify permuted sequences that are most similar to the "wild type."
 
